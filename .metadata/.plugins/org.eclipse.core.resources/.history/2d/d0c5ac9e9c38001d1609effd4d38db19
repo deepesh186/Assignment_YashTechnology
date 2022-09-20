@@ -1,0 +1,26 @@
+package com.yash.array;
+
+public class PalindromStringInArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] names = {"Anna", "Nalan", "Hannah", "Emma", "Aidai", "Ciris", "Yasin", "Bob", "Inna", "Eve"};
+	    boolean isPalindrome = true;
+	    String reverses[] = new String[names.length];
+	    String reverse = "";
+	    char [] ch = {};
+	    for (int i = 0; i< names.length; i++){
+	        System.out.println(names[i]);//convert from array to string
+	        int strLength = names[i].length();
+	        System.out.println(strLength);
+
+	        for(int j = strLength - 1; j>=0; j--) {
+	            reverse = reverse + names[i].charAt(j);
+	        }
+	        if (names[i].toLowerCase().equals(reverse.toLowerCase())){
+	        	 System.out.println(reverse);
+	        }
+	    }
+	}
+
+}

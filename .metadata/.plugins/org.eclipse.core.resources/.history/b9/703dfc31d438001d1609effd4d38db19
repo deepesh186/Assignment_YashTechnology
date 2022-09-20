@@ -1,0 +1,16 @@
+package com.yash.oops;
+
+public class NodeTrng extends JavaTrng{
+	
+	static int nodeTrngDuration=10;
+	public void useTrng(int noOfTrainee,int nodeTrngDuration )
+	{
+		System.out.println("java trng"+noOfTrainee+"duration of training"+nodeTrngDuration);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

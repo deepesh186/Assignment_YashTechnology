@@ -1,0 +1,37 @@
+package com.yash.oops;
+
+
+public class JavaTrng {
+	int noOfTrainee;//number of trainee
+	static int duration=30;//time span for taining
+	String trainingName;//name of the training
+	
+	//method is used to display training details
+	void useTrng()
+	{
+		System.out.println("java full stack training");
+	}
+	
+	void useTrng(int noOfTrainee,int duration )
+	{
+		System.out.println("java trng"+noOfTrainee+"duration of training"+duration);
+	}
+	
+	void useKeyboard()
+	{
+		
+	}
+	//method is used to give information about class room
+	void useClassRoom()
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

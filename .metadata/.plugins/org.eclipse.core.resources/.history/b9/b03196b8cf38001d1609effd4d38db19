@@ -1,0 +1,53 @@
+package com.yash.oops;
+
+
+/**
+ * @author deepesh.a
+ * class is created to show encapsulation and polymorphism
+ *
+ */
+public class JavaTrng {
+	int noOfTrainee;//number of trainee
+	static int duration=30;//time span for taining
+	String trainingName;//name of the training
+	
+	//empty constructor to intilize the object
+	JavaTrng()
+	{
+		
+	}
+	//construtor overloading
+	JavaTrng(int noOfTrainee)
+	{
+		System.out.println("no of traine are"+noOfTrainee);
+	}
+	
+	//method is used to display training details
+	void useTrng()
+	{
+		System.out.println("java full stack training");
+	}
+	
+	void useTrng(int noOfTrainee,int duration )
+	{
+		System.out.println("java trng"+noOfTrainee+"duration of training"+duration);
+	}
+	
+	void useKeyboard()
+	{
+		
+	}
+	//method is used to give information about class room
+	void useClassRoom()
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}
