@@ -26,7 +26,7 @@ public class StringDescending  {
 	    {
 	        String s = "alkasingh";
 	        MyStringClass m=new MyStringClass();
-	        m.getDescendingSortString(s);
+	        m.sortString(s);
 	        //sortString(s);
 	    }
 
