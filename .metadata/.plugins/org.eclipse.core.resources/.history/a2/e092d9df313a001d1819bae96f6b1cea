@@ -1,0 +1,42 @@
+package com.yash.oops.assinment;
+
+class Electronics
+{
+	int id;
+	String semiconductorType;
+	String dateOfManufacturing;
+	
+	public void getCompare()
+	{
+		System.out.println("hi");
+		
+	}
+	
+}
+
+class Mobile extends Electronics
+{
+	public void getCompare()
+	{
+		System.out.println("hi");
+	}
+	
+}
+ class Lcd extends Electronics
+ {
+	 
+ }
+ 
+ class Laptop extends Electronics
+ {
+	 
+ }
+public class InheritanceMap {
+	
+	public static void main(String args[]) 
+	{
+		Electronics e1=new Mobile();
+		e1
+	}
+
+}

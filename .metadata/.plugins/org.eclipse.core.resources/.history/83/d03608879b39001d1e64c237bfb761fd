@@ -1,0 +1,80 @@
+package com.yash.oops.assinment;
+
+class Person {
+	private int Pid;
+	private String pname;
+	private String paddress;
+	private String dob;
+	public int getPid() {
+		return Pid;
+	}
+	public void setPid(int pid) {
+		Pid = pid;
+	}
+	public String getPname() {
+		return pname;
+	}
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	public String getPaddress() {
+		return paddress;
+	}
+	public void setPaddress(String paddress) {
+		this.paddress = paddress;
+	}
+	public String getDob() {
+		return dob;
+	}
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+	
+
+}
+class Employee extends Person
+{
+	private String date_of_joining;
+	private String base_location;
+	private String deptobj;
+	private String contactno;
+	private String emailid;
+	public String getDate_of_joining() {
+		return date_of_joining;
+	}
+	public void setDate_of_joining(String date_of_joining) {
+		this.date_of_joining = date_of_joining;
+	}
+	public String getBase_location() {
+		return base_location;
+	}
+	public void setBase_location(String base_location) {
+		this.base_location = base_location;
+	}
+	public String getDeptobj() {
+		return deptobj;
+	}
+	public void setDeptobj(String deptobj) {
+		this.deptobj = deptobj;
+	}
+	public String getContactno() {
+		return contactno;
+	}
+	public void setContactno(String contactno) {
+		this.contactno = contactno;
+	}
+	public String getEmailid() {
+		return emailid;
+	}
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
+	}
+	
+}
+class Demo
+{
+	public static void main(String args[])
+	{
+		
+	}
+}

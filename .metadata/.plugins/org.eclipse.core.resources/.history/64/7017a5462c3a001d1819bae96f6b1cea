@@ -1,0 +1,10 @@
+package com.yash.oops.assinment;
+
+public class StringCompare {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

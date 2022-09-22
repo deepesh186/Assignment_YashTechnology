@@ -1,0 +1,8 @@
+package com.yash.oops;
+
+public interface DemoInterface {
+	void useClassRoom();
+	void useLight();
+
+}
+
