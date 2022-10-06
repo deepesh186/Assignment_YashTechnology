@@ -12,8 +12,20 @@
 	
 	
 
-
-
+<bean class="com.yash.spring.assingment.SpringAssingment.PrintMessage" name="message">
+		<property name="message" value="Yash"/>
+		
+	</bean>
+<bean class="com.yash.spring.assingment.SpringAssingment.ConstrutorMessage" name="empci">	
+	<constructor-arg value="null"/>
 	
+	</bean> 
+	<bean class="com.yash.spring.assingment.SpringAssingment.SetterMessage" name="message1">
+		<property name="message" value="null"/>
+		
+	</bean>
+	<bean class="com.yash.spring.assingment.SpringAssingment.Rectangle" name="rct"  >
+     
+     </bean>
 
 </beans>
