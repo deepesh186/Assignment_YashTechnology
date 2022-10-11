@@ -16,4 +16,14 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.yash.tdd.test.FibonacciSeries"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="com.yash.spring.assingment.productjdbc.dao.ProductDaoImpl"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+    <fullyQualifiedTypeName name="com.yash.spring.assingment.productjdbc.entities.Product"/>
+    <fullyQualifiedTypeName name="com.yash.spring.assingment.productjdbc.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="com.yash.spring.assingment.EmployeeSpringOrm.Dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="com.yash.spring.assingment.EmployeeSpringOrm.entities.Employee"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
 </qualifiedTypeNameHistroy>
